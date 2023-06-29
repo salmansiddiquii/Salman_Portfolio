@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+
+}
+
+/* home */
+
+.section1 {
+
+    background-color: #d7fbe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.text1 {
+    color: #1fab89;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.text2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: rgb(36, 35, 35);
+}
+
+.text3 {
+    font-size: 1.5rem;
+}
+
+.font {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #62d2a2;
+    border-radius: 20px;
+
+}
+
+.connect {
+
+    margin: 14px 0;
+}
+
+
+/*About Me */
+
+
+.image {
+    height: 200px;
+}
+
+.section2 {
+    padding-bottom: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container2 {
+
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #1fab89;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hr {
+    color: #1fab89;
+    margin: auto;
+    width: 20%;
+
+}
+
+.Journey-content {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.coding-journey {
+
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    width: 80%;
+
+}
+
+.coding-img {
+    border-radius: 20px;
+    height: 200px;
+    width: 350px;
+}
+
+
+
+.topic {
+    color: #1fab89;
+    font-size: 1.3rem;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.Journey {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+/* skills */
+
+.section3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    height: fit-content;
+    color: #0E2431;
+}
+
+.container3 {
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.my-skills {
+
+    text-align: justify;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.png {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+
+.skill {
+    font-size: 2rem;
+    color: #1fab89;
+}
+
+.skill-p {
+    font-size: 1.2rem;
+}
+
+.qoute {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.skill-title {
+    color: #1fab89;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*Services */
+
+.section4 {
+
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    height: fit-content;
+    width: 70%;
+    margin: auto;
+    display: flex;
+
+}
+
+
+
+
+
+.title {
+    align-items: center;
+}
+
+
+
+.boxes {
+
+    text-align: justify;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.box {
+    padding: 20px;
+   
+    border-radius: 20px;
+    background: linear-gradient(to right, #62d2a2, #656588);
+
+    background-color: #62d2a2;
+}
+
+.web,
+.photo,
+.editing,
+.Writing {
+    font-family: sans-serif;
+    color: #19142c;
+    display: inline;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.section5 {
+    padding: 20px;
+    margin-top: 100px;
+
+    background-color: #62d2a2;
+
+    font-family: 'Ubuntu', sans-serif;
+    height: fit-content;
+    text-align: center;
+}
+
+
+/*  Contact Me */
+.section6 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+button {
+    margin: 10px;
+    text-align: center;
+    background: #031335;
+    background-image: linear-gradient(to bottom, #11999e, #62d2a2);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+
+.tittle {
+    font-size: 1.5rem;
+
+}
+
+.sub-head {
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.projectss {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Section7*/
+
+
+.Section7 {
+
+
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.project-head {
+    font-size: 1.5rem;
+    color: #1fab89;
+
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.projects {
+    margin: 10px;
+    text-align: center;
+    background: #031335;
+    background-image: linear-gradient(to bottom, #11999e, #62d2a2);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+}
+
+.socials li {
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .font {
+        font-size: 0.8rem;
+    }
+
+    .image {
+        height: 150px;
+    }
+
+
+    .skill-p {
+
+        width: 100%;
+
+    }
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .container1 {
+        margin: auto;
+    }
+
+    .text1 {
+        font-size: 1.5rem;
+    }
+
+    .text2 {
+        font-size: 3rem;
+    }
+
+    .text3 {
+        font-size: 1.2rem;
+
+
+    }
+
+
+    .section2 {
+        margin: auto;
+        width: auto;
+    }
+
+    .Journey {
+        width: fit-content;
+
+    }
+
+
+    .my-skills {
+        width: 80%;
+    }
+
+    .container3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .coding-journey {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+
+    .coding-img {
+        width: 300px;
+        height: 150px;
+    }
+
+    /*section7 */
+
+    .projects-list {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+}
